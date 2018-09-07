@@ -1,24 +1,33 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-let fixedBrewRoster = [
-  {
-    name: 'Grandpa Kurtis Ginger Kambucha',
-    brewer: 'Granpappy Kurt',
-    description: 'Probiotic and Prebiotic accessories',
-    abv: '12%',
-    price: '14',
-    remaining: '34'
-  },
-  {
-    name: 'Grandpa Kurtis Lemon and Chili Kambucha',
-    brewer: 'Granpappy Kurt',
-    description: 'Probiotic and Prebiotic accessories',
-    abv: '20%',
-    price: '15',
-    remaining: '20'
-  }
-];
 
-function List(){}
+
+function List(props){
+  return(
+    <div>
+      <h3>{props.name}, produced by: {props.brewer}</h3>
+      <p className="description-text">{props.description}</p>
+      <table>
+        <tr>
+          <th>ABV</th>
+          <th>Price</th>
+          <th>Remaining</th>
+        </tr>
+        <tr>
+          <td>{props.abv}</td>
+          <td>{props.price}</td>
+          <td>{props.remaining}</td>
+        </tr>
+      </table>
+    </div>
+  );
+}
+List.propTypes = {
+  name: PropTypes.string.isRequired,
+  brewer: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  abv: PropTypes.string.isRequired,
+  price: PropTypes.string
+}
 
 export default List;
