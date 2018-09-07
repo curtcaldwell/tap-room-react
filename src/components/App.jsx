@@ -1,15 +1,19 @@
 import React from 'react';
-//import Header from './Header';
-//import Footer from './Footer';
 import { Switch, Route } from 'react-router-dom';
-import Error404 from './Error404';
-//import Home from './home/Home';
+import Header from './shared/Header';
+import Footer from './shared/Footer';
+import Error404 from './shared/Error404';
+import Home from './home/Home';
 
 function App(){
   return (
     <div>
+      <Header/>
       <Switch>
+        <Route exact path='/' component={Home} />
+        <Route component={Error404} />
       </Switch>
+      <Footer/>
     </div>
   )
 }
