@@ -1,0 +1,19 @@
+{
+  "name": "friday-sep-7",
+  "version": "1.0.0",
+  "description": "---------------------   This weeks prompt is to rebuild a project previously completed in angular. The suggestion was to rebuild a taproom app which is supposed to render everything besides data creation.    For those interested in my Dev Notes you can find them [here](../src/assets/md/DEVJOURNAL.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hanleyjames/tap-room-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hanleyjames/tap-room-react/issues"
+  },
+  "homepage": "https://github.com/Hanleyjames/tap-room-react#readme"
+}
