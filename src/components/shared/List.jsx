@@ -27,7 +27,7 @@ List.propTypes = {
   brewer: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   abv: PropTypes.string.isRequired,
-  price: PropTypes.string,
+  price: PropTypes.string.isRequired,
   remaining: PropTypes.string
 };
 
