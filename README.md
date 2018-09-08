@@ -1,9 +1,9 @@
 # Friday Independent Project
 ## By HanleyJames
 ---------------------
-  This weeks prompt is to rebuild a project previously completed in angular. The suggestion was to rebuild a taproom app which is supposed to render everything besides data creation. 
+  This weeks prompt is to rebuild a project previously completed in angular. The suggestion was to rebuild a taproom app which is supposed to render everything besides data creation.
   For those interested in my Dev Notes you can find them [here](../src/assets/md/DEVJOURNAL.md)
-  
+
   As follows are my specs and their completion, objectives, and a brief to do list of other prompts required in the project.
 
 |Behavior|Input|Output|Completed|
@@ -32,7 +32,7 @@ Objectives:
 
 To Do:
   1. ~~Outline the Component and routing structure~~
-  2. Write static lists to pass to list component
+  2. ~~Write static lists to pass to list component~~
   3. Include section with brief answers to the prompts:
-    + Add notes section for documenting issues, and questions. Commit these notes by themselves.
+    + ~~Add notes section for documenting issues, and questions. Commit these notes by themselves.~~
     + In the description of the project, include thoughts on differences in development process between Angular and React.
