@@ -6,10 +6,12 @@ import Error404 from './shared/Error404';
 import Home from './home/Home';
 import Employee from './employee/Employee';
 import Newbrew from './newbrew/Newbrew';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 function App(){
   return (
     <div>
+      <CssBaseline />
       <Header />
       <Switch>
         <Route exact path='/' component={Home} />
