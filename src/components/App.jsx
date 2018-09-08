@@ -8,12 +8,13 @@ import Home from './home/Home';
 function App(){
   return (
     <div>
-      <Header/>
+      <Header />
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route path='/' component={Home} />
         <Route component={Error404} />
       </Switch>
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }
+export default App;

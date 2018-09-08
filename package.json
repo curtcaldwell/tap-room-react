@@ -4,7 +4,10 @@
   "description": "---------------------   This weeks prompt is to rebuild a project previously completed in angular. The suggestion was to rebuild a taproom app which is supposed to render everything besides data creation.    For those interested in my Dev Notes you can find them [here](../src/assets/md/DEVJOURNAL.md)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/** src/**/**; exit 0",
+    "lint-fix": "eslint src/** src/**/** --fix; exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",

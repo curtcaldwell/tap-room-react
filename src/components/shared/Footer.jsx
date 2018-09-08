@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Header(){
-  render (
+function Footer(){
+  return (
     <div>
       <p>sweet footer works</p>
     </div>
-  )
+  );
 }
+export default Footer;
