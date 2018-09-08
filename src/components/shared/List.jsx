@@ -6,7 +6,7 @@ function List(props){
   return(
     <div>
       <h3>{props.name}, produced by: {props.brewer}</h3>
-      <p className="description-text">{props.description}</p>
+      <p>{props.description}</p>
       <table>
         <tr>
           <th>ABV</th>
@@ -27,7 +27,8 @@ List.propTypes = {
   brewer: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   abv: PropTypes.string.isRequired,
-  price: PropTypes.string
-}
+  price: PropTypes.string,
+  remaining: PropTypes.string
+};
 
 export default List;
