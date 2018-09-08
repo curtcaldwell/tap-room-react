@@ -6,3 +6,5 @@ eslint --init
 Sometimes it is hard for me to remember that environment changes can sometimes lead to fixing more problems than it's worth. For instance, I spent over an hour trying to deal with an issue in npm and globally installing node modules. I was using sudo in doing so with osx, but eventually I had to put it aside. It's important to recognize what tasks are time sinks and what are your back up plans to deal with these inconveniences.
 
 When passing data and properties between Components, I forgot exactly what order they came in. This is something I need to spend more time on personally. Sometimes I forget exactly the order in which data is passed. If I would have left Home and List as they were, they would  have been reversed.
+
+One of my longest issues so far, was realizing I cant put links for placeholders. If the routes themselves don't exist, the project will fail to render. I should be less sloppy in this regard.
