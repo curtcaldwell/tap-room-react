@@ -8,3 +8,5 @@ Sometimes it is hard for me to remember that environment changes can sometimes l
 When passing data and properties between Components, I forgot exactly what order they came in. This is something I need to spend more time on personally. Sometimes I forget exactly the order in which data is passed. If I would have left Home and List as they were, they would  have been reversed.
 
 One of my longest issues so far, was realizing I cant put links for placeholders. If the routes themselves don't exist, the project will fail to render. I should be less sloppy in this regard.
+
+Sometimes I also forget that the placement for the 404 in the router matters. The route gets interpreted as terminal and blocks out the rest of the routes from loading. While I did forget this, I managed to fix it right away.
