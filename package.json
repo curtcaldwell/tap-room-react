@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Hanleyjames/tap-room-react#readme",
   "dependencies": {
+    "@material-ui/core": "^3.0.2",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
