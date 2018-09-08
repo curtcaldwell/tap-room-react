@@ -10,3 +10,4 @@ When passing data and properties between Components, I forgot exactly what order
 One of my longest issues so far, was realizing I cant put links for placeholders. If the routes themselves don't exist, the project will fail to render. I should be less sloppy in this regard.
 
 Sometimes I also forget that the placement for the 404 in the router matters. The route gets interpreted as terminal and blocks out the rest of the routes from loading. While I did forget this, I managed to fix it right away.
+In terms of setting up the rest of the router, it was relatively easy. I tried to set up some simple control logic for hiding and showing information. I really enjoy the openness of facebooks documentation.

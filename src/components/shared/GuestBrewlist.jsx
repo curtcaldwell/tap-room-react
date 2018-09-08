@@ -1,6 +1,5 @@
 import React from 'react';
-import List from './../shared/List';
-import IsEmployee from './../shared/IsEmployee';
+import List from './List';
 let fixedBrewRoster = [
   {
     name: 'Grandpa Kurtis Ginger Kambucha',
@@ -19,12 +18,18 @@ let fixedBrewRoster = [
     remaining: '20'
   }
 ];
-
-function Employee(){
-  return (
+function GuestBrewList(props){
+  return(
     <div>
-      <IsEmployee isNowEmployee={true} />
+      {fixedBrewRoster.map((list, index) =>
+        <List name={list.name}
+          brewer={list.brewer}
+          description={list.description}
+          abv={list.abv}
+          price={list.price}
+          key={index}/>
+      )}
     </div>
   );
 }
-export default Employee;
+export default GuestBrewList;
