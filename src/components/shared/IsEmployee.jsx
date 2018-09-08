@@ -1,13 +1,14 @@
 import React from 'react';
-import EmployeeBrewList from 'EmployeeBrewList';
-import GuestBrewList from 'GuestBrewList';
+import EmployeeBrewList from './EmployeeBrewList';
+import GuestBrewList from './GuestBrewList';
 
 function IsEmployee(props){
-  const isEmployee = props.isEmployee;
-  if (isEmployee){
-    return <EmployeeBrewList.jsx />;
+  console.log(props);
+  const isNowEmployee = props.isNowEmployee;
+  if (isNowEmployee){
+    return <EmployeeBrewList />;
   }
-  return <GuestBrewList.jsx />;
+  return <GuestBrewList />;
 }
 
 export default IsEmployee;

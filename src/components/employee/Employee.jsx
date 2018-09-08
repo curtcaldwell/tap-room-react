@@ -1,6 +1,6 @@
 import React from 'react';
-import List from 'list';
-
+import List from './../shared/List';
+import IsEmployee from './../shared/IsEmployee';
 let fixedBrewRoster = [
   {
     name: 'Grandpa Kurtis Ginger Kambucha',
@@ -23,17 +23,7 @@ let fixedBrewRoster = [
 function Employee(){
   return (
     <div>
-      <div>
-        {fixedBrewRoster.map((list, index) =>
-          <List name={list.name}
-            brewer={list.brewer}
-            description={list.description}
-            abv={list.abv}
-            price={list.price},
-            remaining={list.remaining}
-            key={index}/>
-        )}
-      </div>
+      <IsEmployee isNowEmployee={true} />
     </div>
   );
 }
